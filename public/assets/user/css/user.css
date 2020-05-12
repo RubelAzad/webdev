@@ -1,0 +1,9 @@
+#tbl_personal_details th{
+    width: 25%;
+    text-align: right;
+    border-top: none;
+}
+
+#tbl_personal_details td {
+    border-top: none;
+}

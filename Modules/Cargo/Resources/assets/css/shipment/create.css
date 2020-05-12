@@ -1,0 +1,35 @@
+.bootstrapWizard li{
+    width: 16%;
+}
+.select2-dropdown, .select2-drop {
+    margin-top: 48px;
+}
+.onoffswitch {
+    margin-top: 10px;
+}
+
+.selected{
+    background-color: #0a6aa1;
+    color: yellow;
+}
+
+.widget-body .well {
+    margin-bottom: 15px;
+}
+
+#div_document{
+    margin-left: 15px;
+}
+
+#div_parcel{
+    margin-left: 15px;
+}
+
+#parcel_fields input {
+    width: 60px;
+}
+/*.chosen-container-single .chosen-single {*/
+/*height: 45px;*/
+/*font-size: 18px;*/
+/*padding: 8px 0 0 8px;*/
+/*}*/

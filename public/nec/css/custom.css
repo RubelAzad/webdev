@@ -1,0 +1,55 @@
+body{
+    color: #928888;
+}
+.container:after { clear: both; }
+@media (min-width: 768px) { .container { width: 750px; } }
+@media (min-width: 992px) { .container { width: 970px; } }
+@media (min-width: 1300px) { .container { width: 1300px; } }
+
+@media (min-width: 768px) {
+    .header_container {
+        background-color: #0e8028;
+    }
+}
+
+@media (max-width: 767px) {
+    .header_container {
+        background-color: transparent;
+    }
+}
+
+.no-padding{
+    padding: 0;
+}
+.no-margin{
+    margin: 0;
+}
+
+.no-margin-top{
+    margin-top: 0;
+}
+
+select, input[type="text"], input[type="email"], input[type="tel"], textarea{
+    margin-bottom: 0;
+}
+
+select, input[type="text"], input[type="email"], input[type="tel"], textarea {
+    background: #fff;
+    color: #000;
+}
+.form-control{
+    background: #fff;
+    color: #000;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.main-title {
+    padding: 5px 0;
+}
+
+.widget_pw_icon_box .icon-box__subtitle{
+    color: #928888;
+}
+
+.latest-news .wp-post-image { height:500px;}

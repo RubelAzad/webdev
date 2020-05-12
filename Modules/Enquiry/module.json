@@ -1,0 +1,17 @@
+{
+    "name": "Enquiry",
+    "alias": "enquiry",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Enquiry\\Providers\\EnquiryServiceProvider",
+        "Modules\\Enquiry\\Providers\\AuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

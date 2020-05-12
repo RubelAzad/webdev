@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/enquiry",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Enquiry\\Providers\\EnquiryServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Enquiry\\": ""
+        }
+    }
+}

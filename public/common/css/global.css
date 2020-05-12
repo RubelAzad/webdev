@@ -1,0 +1,188 @@
+body{
+    overflow-x: hidden;
+}
+#main{
+    min-height: 90vh;
+}
+/*.smart-style-3 #header {*/
+    /*background-color: #5a514b;*/
+    /*background-image: -moz-linear-gradient(top,#9f8470,#7d6e64);*/
+    /*background-image: -webkit-gradient(linear,0 0,0 100%,from(#f78c40),to(#d67632));*/
+    /*background-image: -webkit-linear-gradient(top,#f78c40,#d67632);*/
+    /*background-image: -o-linear-gradient(top,#f78c40,#d67632);*/
+    /*background-image: linear-gradient(to bottom,#65605d80,#0c0c0b);*/
+/*}*/
+
+.form-group {
+    margin-bottom: 5px;
+}
+.modal {
+    text-align: center;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+.center {
+    text-align: center;
+}
+.chosen-container
+{
+    width: 100% !important;
+}
+.select2-container{
+    width: 100% !important;
+}
+
+.red{
+    color: red;
+}
+
+.orange{
+    color: orange;
+}
+
+.orange2{
+    color: orangered;
+}
+.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+.popover{
+    max-width:750px;
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.clockpicker-popover{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 999999 !important;
+}
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-xl {
+        width: 90%;
+        max-width:1600px;
+    }
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    a[href]:after {
+        content: none !important;
+    }
+    .document-viewer {
+        display: none !important;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#powerTip h3{
+    margin-top: 0;
+}
+
+
+.input-group[class*="col-"] {
+    float: none;
+    padding-left: 12px;
+    padding-right: 0;
+}
+
+.onoffswitch {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.has-error{
+    color: #FF0000;
+}
+/*.ui-datepicker { position: relative; z-index: 10000 !important; }*/
+/*.no-padding>.table-bordered,.no-padding>.table-responsive>.table-bordered{border-bottom: thin solid #ddd}*/
+
+
+label {
+      font-size: 14px !important;
+      color: #000 !important;
+      font-weight: 700 !important;
+}
+
+.star {
+    color: red;
+    /* font-size: 13px; */
+    font-weight: 800;
+}
+.txt-color-blueDark {
+    color: #000 !important;
+    font-weight: 500 !important;
+    font-size: 19px !important;
+}
+.panel.all-invoice {
+    margin-bottom: 0px !important;
+}
+a.btndesg {
+    padding: 5px 9px;
+    width: 75px;
+    margin-bottom: 6px;
+}
+.form-add {
+    display: inline-block;
+    margin-top: 9px;
+}
+.tdesign {
+    background-color: #fff;
+    min-height: 354px;
+}
+.shar {
+    border: 1px solid #d2cccc;
+    margin: 0 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.carginpu input {
+    width: 100% !important;
+}
+.col-md-2.slab {
+    padding-left: 0;
+    padding-right: 0;
+}
+.cname {
+    padding-left: 0;
+    padding-right: 5px;
+}
+input.sradio {
+    width: 12px;
+    height: 12px;
+}
+.sha-income{
+    display: block;
+}
+button.btn-shar {
+    margin-top: 11px;
+    margin-left: 2px;
+}

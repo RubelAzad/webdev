@@ -1,0 +1,17 @@
+{
+    "name": "Pickup",
+    "alias": "pickup",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Pickup\\Providers\\PickupServiceProvider",
+        "Modules\\Pickup\\Providers\\AuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

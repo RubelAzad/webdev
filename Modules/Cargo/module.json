@@ -1,0 +1,17 @@
+{
+    "name": "Cargo",
+    "alias": "cargo",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Cargo\\Providers\\CargoServiceProvider",
+        "Modules\\Cargo\\Providers\\CargoAuthServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

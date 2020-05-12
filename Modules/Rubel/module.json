@@ -1,0 +1,16 @@
+{
+    "name": "Rubel",
+    "alias": "rubel",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Rubel\\Providers\\RubelServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

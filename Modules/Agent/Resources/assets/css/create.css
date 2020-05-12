@@ -1,0 +1,14 @@
+.bootstrapWizard li{
+    width: 16%;
+}
+.select2-dropdown, .select2-drop {
+    margin-top: 48px;
+}
+.onoffswitch {
+    margin-top: 10px;
+}
+/*.chosen-container-single .chosen-single {*/
+/*height: 45px;*/
+/*font-size: 18px;*/
+/*padding: 8px 0 0 8px;*/
+/*}*/

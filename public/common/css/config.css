@@ -1,0 +1,4 @@
+.active img{
+    -webkit-box-shadow: 1px 1px 15px 10px #392BFF;
+    box-shadow: 1px 1px 15px 10px #392BFF;
+}
