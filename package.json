@@ -32,7 +32,7 @@
     "jquery-validation": "^1.17.0",
     "jszip": "^3.1.5",
     "laravel-mix": "^2.1",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "moment": "^2.22.1",
     "npm": "^6.1.0",
     "pace-js": "^1.0.2",
